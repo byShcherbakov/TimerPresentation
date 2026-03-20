@@ -4,28 +4,54 @@
 }
 
 body{
-    background-color: #f1f5f8;
+    background-color: #ffff;
 }
 
 .container{
     align-items: center;
+    flex-direction: column;/*  растЯг на фулл страницу */
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 36px;
+
 }
 
+.container {
+    font-size:30px;
+
+
+}
+
+
 .Img{
-   
+    height: 100%;
+    width: 100%;
 }
 
 
 .Main_img{
-    align-items: center;
-    text-align: center;
-    max-width: 200px;
-    min-height: 200px;
+
 }
 
 
-.countDown{}
+.countDown{
+    display: flex;
+    flex-wrap:wrap ; /*Горизонт сделать */
+    justify-content: space-between;
+    text-align: center;
+
+    font-size: 16px;
+    color: white;
+    min-width: 320px;
+
+}
 
 
-.countDown-item{}
+.countDown-item{
+    margin-top: 10px;
+    background-color: #49a6e9;
+    padding: 6px;
+    min-width: 65px;
+
+}
