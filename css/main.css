@@ -4,39 +4,27 @@
 }
 
 body{
-    background-color: #ffff;
+    background-color: #fff
 }
 
 .container{
     align-items: center;
-    flex-direction: column;/*  растЯг на фулл страницу */
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 36px;
-
 }
-
-.container {
-    font-size:30px;
-
-
-}
-
 
 .Img{
-    height: 100%;
-    width: 100%;
+   max-width: 400px;
+   min-height: 260px;
 }
 
 
 .Main_img{
-
+    
 }
 
 
 .countDown{
-    display: flex;
+     display: flex;
     flex-wrap:wrap ; /*Горизонт сделать */
     justify-content: space-between;
     text-align: center;
@@ -50,8 +38,13 @@ body{
 
 .countDown-item{
     margin-top: 10px;
-    background-color: #49a6e9;
+   background-color: #49a6e9;
     padding: 6px;
     min-width: 65px;
 
+}
+
+.expired{
+    color: #222;
+    margin: 0 auto;
 }
