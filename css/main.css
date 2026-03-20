@@ -4,5 +4,28 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: #f1f5f8;
 }
+
+.container{
+    align-items: center;
+    text-align: center;
+}
+
+.Img{
+   
+}
+
+
+.Main_img{
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    min-height: 200px;
+}
+
+
+.countDown{}
+
+
+.countDown-item{}
